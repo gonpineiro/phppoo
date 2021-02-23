@@ -70,3 +70,15 @@ $userInter = new userInterface();
 echo $userInter->all();
 $post = new Post();
 echo $post->all();
+
+echo "\n#########################################\n";
+echo "########          Herencia        #######\n";
+echo "#########################################\n\n";
+
+use Herencia\Admin as AdminHerencia;
+use Herencia\User as UserHerencia;
+
+$adminHerencia = new AdminHerencia('Admin Gonzalo');
+echo $adminHerencia->getName();
+$userHerencia = new UserHerencia('Admin Gonzalo');
+echo $userHerencia->getName();
