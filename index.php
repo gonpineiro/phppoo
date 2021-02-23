@@ -82,3 +82,12 @@ $adminHerencia = new AdminHerencia('Admin Gonzalo');
 echo $adminHerencia->getName();
 $userHerencia = new UserHerencia('Admin Gonzalo');
 echo $userHerencia->getName();
+
+echo "\n#########################################\n";
+echo "########         InterfaceTwo     #######\n";
+echo "#########################################\n\n";
+
+use InterfazTwo\Admin as AdminInterface;
+
+$adminInterfaceTwo = new AdminInterface('AdminInterfaceTwo');
+echo $adminInterfaceTwo->getName();

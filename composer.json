@@ -15,7 +15,8 @@
             "Alcance\\": "03_Alcance/",
             "Polimorfismo\\": "04_Polimorfismo/",
             "Interfaz\\": "05_Interface/",
-            "Herencia\\": "06_Herencia/"
+            "Herencia\\": "06_Herencia/",
+            "InterfazTwo\\": "07_Interface/"
         }
     }
 }
