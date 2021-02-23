@@ -1,0 +1,13 @@
+<?php
+
+namespace Polimorfismo;
+
+use Polimorfismo\Base;
+
+class User extends Base
+{
+    public function __construct($name)
+    {
+        $this->name = $name;
+    }
+}
