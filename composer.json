@@ -10,7 +10,7 @@
     "description": "Esto es POO",
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
+            "App\\": "src/",
             "Ejemplos\\": "01_Ejemplos/",
             "Abs\\": "02_Abstraccion/",
             "Alcance\\": "03_Alcance/",
