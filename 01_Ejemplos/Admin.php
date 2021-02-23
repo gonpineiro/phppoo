@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace Ejemplos;
 
-use App\Person;
+use Ejemplos\Person;
 
 class Admin extends Person
 {

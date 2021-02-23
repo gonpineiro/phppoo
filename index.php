@@ -2,8 +2,8 @@
 
 require_once './vendor/autoload.php';
 
-use App\User;
-use App\Admin;
+use Ejemplos\User;
+use Ejemplos\Admin;
 
 $user = new User();
 $user->type = new Admin();
