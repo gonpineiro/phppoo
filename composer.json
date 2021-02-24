@@ -1,5 +1,5 @@
 {
-    "name": "gonzalo/poo",
+    "name": "gonzalo/phppoo",
     "license": "MIT",
     "authors": [
         {
@@ -7,7 +7,7 @@
             "email": "gon.pineiro@gmail.com"
         }
     ],
-    "description": "Esto es POO",
+    "description": "Programación Orientada a Objetos PHP",
     "autoload": {
         "psr-4": {
             "App\\": "src/",

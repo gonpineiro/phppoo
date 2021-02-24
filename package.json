@@ -1,0 +1,14 @@
+{
+  "name": "phppoo",
+  "version": "1.0.0",
+  "description": "Programación Orientada a Objetos PHP",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "php vendor/phpunit/phpunit/phpunit"
+  },
+  "author": "gon.pineiro",
+  "license": "MIT"
+}
