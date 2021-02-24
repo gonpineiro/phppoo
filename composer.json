@@ -17,7 +17,8 @@
             "Polimorfismo\\": "04_Polimorfismo/",
             "Interfaz\\": "05_Interface/",
             "Herencia\\": "06_Herencia/",
-            "InterfazTwo\\": "07_Interface/"
+            "InterfazTwo\\": "07_Interface/",
+            "Reto\\": "08_Reto/"
         }
     },
     "require-dev": {

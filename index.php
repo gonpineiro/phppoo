@@ -91,3 +91,20 @@ use InterfazTwo\Admin as AdminInterface;
 
 $adminInterfaceTwo = new AdminInterface('AdminInterfaceTwo');
 echo $adminInterfaceTwo->getName();
+
+echo "\n#########################################\n";
+echo "########              Reto        #######\n";
+echo "#########################################\n\n";
+
+use Reto\Models\Author;
+use Reto\Models\Category;
+
+$gonzalo = new Author('Gonzalo', 'gonpineiro', 'gon.pi@gmail.com');
+$gonzalo->addPost('Esto es un titulo', 'Esto es un Contenido', new Category('php'));
+
+foreach ($gonzalo->getPost() as $post) {
+    echo "Author: {$post->getAuthor()->getName()}";
+    echo "Title: {$post->getTitle()}\n";
+    echo "Content: {$post->getContent()}\n";
+    echo "Category: {$post->getCategory()->getName()}\n";
+}
